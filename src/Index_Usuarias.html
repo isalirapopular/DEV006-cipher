@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cifra tu código</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body class="bodyCifrado">
+        <h2>Mensajería cifrada para nuestras usuarias</h2>
+        <label for="NomUsuaria">Tu nombre:</label>
+        <input type="text" id="NomUsuaria">
+        <br>
+        <label for="message">Mensaje:</label>
+        <br>
+        <textarea name="textarea" id="MensajeUsuaria" rows="10" cols="50" placeholder="Escribe tu mensaje acá" ></textarea>
+        <br>
+        <label for="offset">Desplazamiento:</label>
+        <input type="number" id="offset" class="displayBlock" min="1" max="33">
+        <button type="button" id="BtnCifrar">Cifrar</button>
+        <br>
+        <textarea name="textarea" id="MensajeCifrado" rows="10" cols="50" placeholder="Acá aparecerá tu mensaje cifrado" ></textarea>
+        <br>
+        <button id="BtnDescifrar">Descifrar</button>
+        <br>
+        <textarea name="textarea" id="MensajeDecifrado" rows="10" cols="50" placeholder="Acá aparecerá tu mensaje decifrado" ></textarea>
+        <br>
+        <button onclick="window.location.href='Index_Agradecimiento.html'" id="Enviar">Enviar</button>
+<script src="index.js" type="module"></script>
+  </body>
+</html>
